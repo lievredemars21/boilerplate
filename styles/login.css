@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(red, yellow, green);
+}
+.login-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 500px;
+    height: 600px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
